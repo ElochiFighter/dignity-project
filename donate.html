@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | Dignity Cycle</title>
+    <meta name="description" content="Help Dignity Cycle provide menstrual products and resources to people who need them.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <a class="visually-hidden" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">
+                <span class="brand-mark" aria-hidden="true"></span> Dignity Cycle
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+            <nav class="main-nav" id="primary-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="donate.html" aria-current="page">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <div class="page-hero">
+            <div class="container">
+                <span class="eyebrow">Support the work</span>
+                <h1>Donate</h1>
+                <p>Help us provide menstrual products and resources to people who need them.</p>
+            </div>
+        </div>
+
+        <div class="plank-divider" role="presentation"></div>
+
+        <section>
+            <div class="container" style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:3rem;align-items:start;">
+
+                <div>
+                    <div class="section-head">
+                        <span class="eyebrow">Where it goes</span>
+                        <h2>What your gift funds</h2>
+                    </div>
+                    <div class="card-grid" style="grid-template-columns:1fr;">
+                        <div class="card" style="flex-direction:row;align-items:center;">
+                            <div class="card-body">
+                                <h3>$25 — Repair supplies</h3>
+                                <p>Covers basic materials for a single accessibility fix, like grab bars or handrails.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="flex-direction:row;align-items:center;">
+                            <div class="card-body">
+                                <h3>$50 — Tool rental</h3>
+                                <p>Helps rent specialized equipment for a weekend build crew.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="flex-direction:row;align-items:center;">
+                            <div class="card-body">
+                                <h3>$100 — Full ramp kit</h3>
+                                <p>Funds materials for a wheelchair ramp for one homeowner.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-top:1.5rem;font-size:0.85rem;color:var(--color-text-muted);">
+                        Dignity Cycle is a registered 501(c)(3) nonprofit. Donations are tax-deductible to the extent allowed by law. EIN: placeholder.
+                    </p>
+                </div>
+
+                <div class="card" style="padding:2rem;border-top:6px solid var(--color-aqua-blue);">
+                    <h2 style="margin-top:0;">Give online</h2>
+                    <form data-stub>
+                        <div class="amount-group" role="radiogroup" aria-label="Donation amount">
+                            <input type="radio" name="amount" id="d-amount-25" value="25">
+                            <label for="d-amount-25">$25</label>
+                            <input type="radio" name="amount" id="d-amount-50" value="50" checked>
+                            <label for="d-amount-50">$50</label>
+                            <input type="radio" name="amount" id="d-amount-100" value="100">
+                            <label for="d-amount-100">$100</label>
+                            <input type="radio" name="amount" id="d-amount-250" value="250">
+                            <label for="d-amount-250">$250</label>
+                            <input type="radio" name="amount" id="amount-custom" value="custom">
+                            <label for="amount-custom">Other</label>
+                        </div>
+                        <div class="form-field">
+                            <label for="custom-amount">Custom amount (USD)</label>
+                            <input type="number" id="custom-amount" min="1" placeholder="e.g. 75">
+                        </div>
+                        <div class="form-field">
+                            <label for="frequency">Frequency</label>
+                            <select id="frequency">
+              <option>One-time</option>
+              <option>Monthly</option>
+            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="donor-name">Full name</label>
+                            <input type="text" id="donor-name" required placeholder="Jordan Rivera">
+                        </div>
+                        <div class="form-field">
+                            <label for="donor-email">Email</label>
+                            <input type="email" id="donor-email" required placeholder="you@example.com">
+                        </div>
+                        <button class="btn btn-primary" type="submit" style="width:100%;">Continue to payment</button>
+                        <p class="form-status" style="margin-top:0.75rem;font-size:0.85rem;color:var(--color-text-muted);"></p>
+                        <p style="margin-top:0.75rem;font-size:0.8rem;color:var(--color-text-muted);">
+                            Template note: wire this form up to Stripe, PayPal, or a giving platform like Givebutter before publishing.
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="plank-divider" role="presentation"></div>
+
+        <section class="section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Other ways to give</span>
+                    <h2>Be Part of the Cycle</h2>
+                    <p>Change does not have to start with a huge organization. It can start with one person, one donation, one conversation, or one community partner.</p>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Start a Drive</h3>
+                            <p>Organize a menstrual product collection at your school, organization, workplace, or community.</p>
+                            <a class="btn btn-secondary" href="mailto:hello@rebuildinghealthpbp.org">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Partner With Us</h3>
+                            <p>Businesses, organizations, schools, healthcare professionals, and community members can help expand our reach.</p>
+                            <a class="btn btn-secondary" href="mailto:hello@rebuildinghealthpbp.org">Partner with us</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Spread Awareness</h3>
+                            <p>Talk about period poverty. Share our work. Help make menstrual health a conversation that people do not have to be embarrassed to have.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Dignity Cycle</h4>
+                    <p style="color:#DCE9F2;">Serving the Atlanta community.</p>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/rebuildinghealthpbp/" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a href="mailto:hello@rebuildinghealthpbp.org">hello@rebuildinghealthpbp.org</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Dignity Cycle. All rights reserved.</span>
+                <span>501(c)(3) nonprofit · EIN placeholder</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
